@@ -4,7 +4,7 @@
  * 
  */
 
-const url = `https://web.bestgame99.com/api/pay/getPayInformation?amount=1`;
+const url = `https:\/web.bestgame99.com/api/pay/getPayInformation?amount=1`;
 const method = `GET`;
 const headers = {
 'Accept-Encoding' : `gzip, deflate, br`,
