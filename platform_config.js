@@ -14,7 +14,7 @@ var PlatformConfig = /** @class */ (function () {
     PlatformConfig.public_info = "文网游备字〔2018〕M-RPG 0393 号",      // 版号
     PlatformConfig.public_link = "//www.q-dazzle.com/",           // 版号链接
     PlatformConfig.has_mask = 0,           // 是否有独立的屏蔽字
-    PlatformConfig.ShowQuickPoint = 0,     // 是否显示悬浮点  0否 1是
+    PlatformConfig.ShowQuickPoint = 1,     // 是否显示悬浮点  0否 1是
     
     PlatformConfig.ticket_url_root = "api/create_ticket/",
     PlatformConfig.sdk_version = "h5game",
@@ -22,7 +22,7 @@ var PlatformConfig = /** @class */ (function () {
     PlatformConfig.skip_update = 0,             //-跳过更新
 
     PlatformConfig.ShowStatPanel = 0;           //是否显示统计面板 0否1是
-    PlatformConfig.ShowDebugPanel = 0;          //是否显示Debug面板 0否1是
+    PlatformConfig.ShowDebugPanel = 1;          //是否显示Debug面板 0否1是
     PlatformConfig.ShowTestTool = 1;            //是否显示TestTool面板 0否1是
     PlatformConfig.ShowErrorPanel = 0;          //是否显示报错面板 0否1是
     PlatformConfig.LocalJson = 0;               //默认0使用打包好的bin文件配置，1为使用本地的json文件配置
